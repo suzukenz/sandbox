@@ -17,16 +17,16 @@
     "prettier": "prettier --config ./.prettierrc --write ./src/**/*.js"
   },
   "devDependencies": {
-    "eslint": "^5.5.0",
+    "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-react": "^7.11.1",
-    "prettier": "^1.14.2",
-    "serverless": "^1.30.3",
-    "serverless-google-cloudfunctions": "^1.2.0"
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "serverless": "^1.39.1",
+    "serverless-google-cloudfunctions": "^2.3.2"
   },
   "dependencies": {
     "request": "^2.88.0"
