@@ -1,0 +1,31 @@
+{
+  "name": "vue-js-test",
+  "version": "1.0.0",
+  "description": "My mathematical Nuxt.js project",
+  "author": "kenji suzuki",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.7.1",
+    "ts-node": "^8.1.0",
+    "vue-property-decorator": "^8.1.1"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.7.1",
+    "@types/jest": "^24.0.13",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "ts-jest": "^24.0.2",
+    "vue-jest": "^3.0.4"
+  }
+}
