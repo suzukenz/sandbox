@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["esnext", "DOM"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true
+    // Note that the options isolatedModules, noLib, noResolve and module cannot be changed.
+  }
+}
