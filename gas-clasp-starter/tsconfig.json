@@ -11,7 +11,11 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
     // Note that the options isolatedModules, noLib, noResolve and module cannot be changed.
   }
 }
