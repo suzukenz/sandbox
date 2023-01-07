@@ -1,0 +1,31 @@
+[package]
+name = "rust-todo-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["database-test"]
+database-test = []
+
+[dependencies]
+anyhow = "1.0.68"
+axum = "0.6.1"
+dotenv = "0.15.0"
+hyper = { version = "0.14.23", features = ["full"] }
+mime = "0.3.16"
+serde = { version = "1.0.151", features = ["derive"] }
+serde_json = "1.0.91"
+sqlx = { version = "0.6.2", features = [
+    "runtime-tokio-rustls",
+    "any",
+    "postgres",
+] }
+thiserror = "1.0.38"
+tokio = { version = "1.23.0", features = ["full"] }
+tower = "0.4.13"
+tower-http = { version = "0.3.5", features = ["cors"] }
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
+validator = { version = "0.16.0", features = ["derive"] }
