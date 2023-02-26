@@ -1,0 +1,9 @@
+node_modules
+
+/.cache
+/build
+/public/build
+.env
+
+# TODO: 本番ではいらないから消す
+/prisma/dev.db
